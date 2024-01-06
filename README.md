@@ -1,2 +1,11 @@
 # Ding
-Notification for students academy
+1. Background
+	During the semester, students sometimes have too many tasks to do. This situation causes missing deadlines of assignments, even for midterms because the class dashboard (as known as Canvas) does not have notifications that remind students a few days before. Students always have to check manually by opening the application to look for the tasks on the calendar.
+
+2. Overall Organization
+Ding, is a Notification Program for Students aims to provide a comprehensive system for managing and receiving notifications related to various aspects of a student's academic and social life. The idea of Ding is that people receive push notifications from their reminder feature on their smartphones, however, students never receive any notification about the deadlines and midterms reminders through Canvas. Therefore, we want to make a program that could show these notifications. Once students open the application, the notifications will pop-up a week before in advance. Through Ding, we want to ensure that students will not miss any important tasks that should be done before dues.
+The Notification Program for Students aims to streamline students' academic and social experiences by providing timely and personalized notifications. The proposed UML design and implementation plan outline a systematic approach to achieving the project's objectives. The project's success will be measured by the program's usability, reliability, and its ability to enhance students' overall productivity and engagement.
+
+3. Design
+The program will implement a user-friendly interface by using the “tkinter” library to allow students to interact with the notification system. Also, design a dashboard where students can view and manage their notifications easily. The most crucial part of this program is that we will implement functionality to create notifications for Assignment due dates, and Midterm study reminders (a week before the midterm), and any important events that users do not want to miss. For flexibility of using this program, students will be allowed to add or delete notifications as needed. Students are also allowed to check all of the events that have been added. We will implement “datetime” library to make the due date in YYYY-MM-DD format, and get the current date to allow the reminder to be sent seven days before the due date in advance.
+
